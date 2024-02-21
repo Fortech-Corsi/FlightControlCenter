@@ -163,8 +163,8 @@ namespace FlightSimulatorControlCenter
         public void UpdateSelectedFleet(FlottaBl flotta)
         {
             idFlottaAttiva = flotta.IdFlotta;
-            CheckUIElementToEnableDisable();
             RetrieveAndUpdateFleetData();
+            CheckUIElementToEnableDisable();
         }
 
         // Controllo se e' selezionata una flotta e attivo disattivo i controlli
